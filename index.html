@@ -48,7 +48,7 @@
   </div>
 </nav>
 
-<section class="sect sec1 align-items-center justify-content-center" data-type="background" data-speed="5">
+<section class="sect sec1 align-items-center justify-content-center" data-type="background" data-speed="12">
 		<div class="col-md-12 w-100 h-100 spec-text">
 			<h1 class="text-center type1">Heading on your choise!<br><span class="type2">Heading on your choise!</span><br><span class="type3">Heading on your website!</span></h1>
 		</div>
@@ -219,8 +219,8 @@ $(document).ready(function(){
 $('section[data-type="background"]').each(function(){
      var $bgobj = $(this);
  $(window).scroll(function() {
-		var yPos = +($window.scrollTop() / $bgobj.data('speed')); 
-		var coords = '50% '+ yPos + 'px';
+		var yPos = ($window.scrollTop() / $bgobj.data('speed')); 
+		var coords = '50% '+ yPos / 0.2 + 'px';
 		$bgobj.css({ backgroundPosition: coords });
 	}); 
  });	
