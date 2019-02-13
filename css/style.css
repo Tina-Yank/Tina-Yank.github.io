@@ -20,8 +20,11 @@
 }
 
 .sec1 {
-	background: url("../images/sec1-bg.jpg") no-repeat center center;
-	background-size:120%;
+	background: url("../images/sec1-bg.jpg") no-repeat center top fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size:cover;
+	background-size:cover;
 	position: relative;
 	color: white;
 	transition: .7s;
