@@ -6,5 +6,5 @@ function parallax(){
 	$('.bg').css('top',-(scrolled*0.2)+'px');
 
 	var scrolled = $(window).scrollTop();
-	$('.spec-text').css('top',-(scrolled*0.4)+'px');
+	$('.spec-text').css('top',-(scrolled*0.3)+'px');
 }
