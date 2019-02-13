@@ -20,26 +20,26 @@
 }
 
 .sec1 {
-	background: url("../images/sec1-bg.jpg") no-repeat center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size:cover;
-	background-size:cover;
+	background: url("../images/sec1-bg.jpg") no-repeat center center fixed;
+	background-size: cover;
 	position: relative;
 	color: white;
 	transition: .7s;
 	z-index: -1;
 }
 
-.sec1 h1 {
-	text-align: center;
-	margin: 0;
+.sec1 img {
     position: relative;   
-    font-size: 50px;
-    text-shadow: 0 0 20px black;            /* 2 */
-    transform: translate(0, 50%);
-    top: 35%;                        /* 3 */
+    top: 30%;                       /* 3 */
 	transition: .5s;
+	max-width: 100%;
+}
+
+.sec1 h1 {
+    position: relative;   
+    top: 30%;                       /* 3 */
+	transition: .5s;
+	max-width: 100%;
 }
 
 .type1 {
