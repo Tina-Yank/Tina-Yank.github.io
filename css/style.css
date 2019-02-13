@@ -24,8 +24,8 @@
 	position: relative;
 	color: white;
 	transition: .7s;
+	z-index: -1;
 }
-	
 
 .sec1 h1 {
 	text-align: center;
@@ -66,6 +66,7 @@
 .sec2 {
 	background-color: white;
 	height: 100%;
+	z-index: 9999;
 }
 
 .sec3 {
