@@ -47,16 +47,25 @@
   </div>
 </nav>
 
-<section class="sect sec1 align-items-center justify-content-center parent">
+<nav id="list-example" class="list-group"><a class="list-group-item spec-butt" href="#none"><i class="fas fa-arrow-left"></i></a>
+	<ul class="list-group-item menushka">
+		<a class="list-group-item list-group-item-action" href="#sec1">Item 1</a>
+	  	<a class="list-group-item list-group-item-action" href="#sec2">Item 2</a>
+	  	<a class="list-group-item list-group-item-action" href="#footer_contact">Item 3</a>
+	</ul>
+</nav>
+
+<section class="sect sec1 align-items-center justify-content-center parent" id="sec1">
 		<div class="spec-text block">
 			<img class="d-block mx-auto" src="images/logo.png"></img>
-			<h1 class="text-center type1">Although ... not such a bad logo?</h1>
-			<a class="text-center mx-auto d-block mt-3" type="link" href="#sec2" >Order a photo!</a>
+			<h1 class="text-center type1">Are you ready to order a photo?</h1>
+			<hr class="text-slicer mt-5 mb-5" style="background-color: white;"> 
+			<a class="text-center mx-auto d-block mt-3" type="link" href="#sec2" >Make an order!</a>
 		</div>
 		<a href="#sec2" class="down-arrow"><i class="fas fa-angle-down d-block mx-auto wow bounceInDown" data-wow-duration="2s"></i></a>
 </section>
 
-<section class="container-fluid sect sec2"  id="sec2">
+<section class="container-fluid sect sec2 scrollspy-example" id="sec2" data-spy="scroll" data-target="#list-example" data-offset="0">
 		<div class="container marketing">
 			<!-- <div data-spy="scroll" class="radio-group input-group" action="" id="navigation" method="get">
 					<input type="radio" id="radio" name="raz" href="#sec3">
