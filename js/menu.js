@@ -6,5 +6,14 @@ function parallax(){
 	$('.bg').css('top',-(scrolled*0.2)+'px');
 
 	var scrolled = $(window).scrollTop();
-	$('.spec-text').css('top',-(scrolled*0.3)+'px');
+	$('.spec-text').css('top',-(scrolled*0.4)+'px');
 }
+
+$(document).ready(function(){
+    $(".navbar").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 1500);
+    });
+});
