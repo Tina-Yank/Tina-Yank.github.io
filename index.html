@@ -7,11 +7,16 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Lora|Gloria+Hallelujah|Permanent+Marker|Miss+Fajardose" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous"> 
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
 	<title>Tina's personal</title>
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark p-0">
-  <h1 class="navbar-brand m-0 pl-3 pr-3">Jank Photo</h1>
+  <h1 class="navbar-brand m-0 pl-3 pr-3">JankPhoto</h1>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -36,7 +41,7 @@
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        <a class="nav-link" href="#footer_contact">Contact me</a>
       </li>
     </ul>
   </div>
@@ -46,11 +51,12 @@
 		<div class="spec-text block">
 			<img class="d-block mx-auto" src="images/logo.png"></img>
 			<h1 class="text-center type1">Although ... not such a bad logo?</h1>
-			<a class="text-center mx-auto d-block mt-3" type="link" href="#sec2" >Для красоты</a>
+			<a class="text-center mx-auto d-block mt-3" type="link" href="#sec2" >Order a photo!</a>
 		</div>
+		<a href="#sec2" class="down-arrow"><i class="fas fa-angle-down d-block mx-auto wow bounceInDown" data-wow-duration="2s"></i></a>
 </section>
 
-<section class="container-fluid sect sec2"  id="sec">
+<section class="container-fluid sect sec2"  id="sec2">
 		<div class="container marketing">
 			<!-- <div data-spy="scroll" class="radio-group input-group" action="" id="navigation" method="get">
 					<input type="radio" id="radio" name="raz" href="#sec3">
