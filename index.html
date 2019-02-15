@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="imagetoolbar" content="no" />
+	<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Lora|Gloria+Hallelujah|Permanent+Marker|Miss+Fajardose" rel="stylesheet">
@@ -57,10 +59,10 @@
 
 <section class="sect sec1 align-items-center justify-content-center parent" id="sec1">
 		<div class="spec-text block">
-			<img class="d-block mx-auto" src="images/logo.png"></img>
+			<img class="d-block mx-auto locked" src="images/logo.png"></img>
 			<h1 class="text-center type1">Are you ready to order a photo?</h1>
 			<hr class="text-slicer mt-5 mb-5" style="background-color: white;"> 
-			<a class="text-center mx-auto d-block mt-3" type="link" href="#sec2" >Make an order!</a>
+			<a class="text-center mx-auto d-block mt-3" href="#none" data-toggle="modal" data-target="#exampleModal">Active button!</a>
 		</div>
 		<a href="#sec2" class="down-arrow"><i class="fas fa-angle-down d-block mx-auto wow bounceInDown" data-wow-duration="2s"></i></a>
 </section>
@@ -82,7 +84,7 @@
 					</div>
 				</div>	
 			<div class="col-md-6 order-1">
-				<img src="images/venz1.png" class="d-block mx-auto pic-venz">
+				<img src="images/venz1.png" class="d-block mx-auto pic-venz locked">
 				<hr class="text-slicer">
 				<p class="lead text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -91,7 +93,7 @@
 					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				<hr class="text-slicer">
-				<img src="images/venz2.png" class="d-block mx-auto pic-venz">
+				<img src="images/venz2.png" class="d-block mx-auto pic-venz locked">
 			</div>
 		</div>
 
@@ -111,7 +113,7 @@
 				</div>
 			</div>
 			<div class="col-md-6 order-1">
-				<img src="images/venz1.png" class="d-block mx-auto pic-venz">
+				<img src="images/venz1.png" class="d-block mx-auto pic-venz locked">
 				<hr class="text-slicer">
 				<p class="lead text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -120,7 +122,7 @@
 					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				<hr class="text-slicer">
-				<img src="images/venz2.png" class="d-block mx-auto pic-venz">
+				<img src="images/venz2.png" class="d-block mx-auto pic-venz locked">
 			</div>
 		</div>
 
@@ -141,7 +143,7 @@
 				</div>	
 			<div class="col-md-6 order-1">
 
-				<img src="images/venz1.png" class="d-block mx-auto pic-venz">
+				<img src="images/venz1.png" class="d-block mx-auto pic-venz locked">
 				
 				<hr class="text-slicer">
 				<p class="lead text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -151,12 +153,31 @@
 					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				<hr class="text-slicer">
-				<img src="images/venz2.png" class="d-block mx-auto pic-venz">
+				<img src="images/venz2.png" class="d-block mx-auto pic-venz locked">
 			</div>
 		</div>
 		<hr class="featurette-devider">
 	</div>		
 </section>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title d-block mx-auto" id="exampleModalLabel">Say me that you're like it :)</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfsrAa2pxB3P_39Ml0LjclDgEMX4ChhvgBA-2Qjx_aZAnSGfg/viewform?embedded=true" class="w-100 googleform" frameborder="0" marginheight="0" marginwidth="0">Загрузка...</iframe>
+      </div>
+      <div class="modal-footer"><p class="d-block mx-auto">We will contact you as soon as It's possible!</p></div>
+    </div>
+  </div>
+</div>
 <!-----------------------------------------Section end!!!!!----------------------------------------->
 
 
@@ -164,7 +185,7 @@
 			<div class="container bottom_border">
 				<div class="row">
 					<div class=" col-sm-4 col-md col-sm-4  col-12 col">
-						<h5 class="headin5_amrc col_white_amrc pt2">Контактная информация</h5>
+						<h5 class="headin5_amrc col_white_amrc pt2">Contact info</h5>
 						<!--headin5_amrc-->
 						<p><i class="fa fa-location-arrow"></i> +380 12 345 67 89 </p>
 						<p><i class="fab fa-viber"></i> +380 12 345 67 89</p>
@@ -174,7 +195,7 @@
 
 					</div>
 				<div class=" col-sm-4 col-md  col-6 col">
-					<h5 class="headin5_amrc col_white_amrc pt2">Быстрые ссылки</h5>
+					<h5 class="headin5_amrc col_white_amrc pt2">Fast links</h5>
 					<!--headin5_amrc-->
 						<ul class="footer_ul_amrc">
 							<li><a href="#">Just a link</a></li>
@@ -188,7 +209,7 @@
 					<!--footer_ul_amrc ends here-->
 				</div>
 				<div class=" col-sm-4 col-md  col-6 col">
-					<h5 class="headin5_amrc col_white_amrc pt2">Быстрые ссылки</h5>
+					<h5 class="headin5_amrc col_white_amrc pt2">Fast links</h5>
 					<!--headin5_amrc-->
 						<ul class="footer_ul_amrc">
 							<li><a href="#" target="_blank"><i class="fab fa-facebook"></i> Just a link</a></li>
@@ -199,7 +220,7 @@
 					<!--footer_ul_amrc ends here-->
 				</div>
 				<div class=" col-sm-4 col-md  col-12 col">
-					<h5 class="headin5_amrc col_white_amrc pt2">Следите за моими новостями в социальных сетях!</h5>
+					<h5 class="headin5_amrc col_white_amrc pt2">Follow me in social networks!</h5>
 					<!--headin5_amrc ends here-->
 						<ul class="footer_ul2_amrc">
 							<li><a href="#" target="_blank"><i class="fab fa-facebook fleft padding-right"></i> </a><p>Моя страница в Facebook! <a href="#">www.какой-тосайт.com...</a></p></li>

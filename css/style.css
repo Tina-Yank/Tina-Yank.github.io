@@ -271,6 +271,21 @@ a:hover {
 	min-width: 10em;
 	max-width: 13em;
 }
+
+.locked {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    pointer-events: none;
+}
+
+.googleform {
+	height: 70vh;
+}
+
+.modal {
+	z-index: 9999;
+}
 /*****************************************footer*****************************************/
 .col_white_amrc { 
 	color:white;

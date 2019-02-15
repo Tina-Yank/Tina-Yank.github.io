@@ -32,4 +32,18 @@ $(document).ready(function(){
 
 $('[data-spy="scroll"]').on('activate.bs.scrollspy', function () {
   $('body').scrollspy({ target: '#list-example' })
+});
+
+$('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').trigger('focus')
 })
+
+var img = document.getElementsByTagName('img');
+
+for(var i in img)
+{
+    img[i].oncontextmenu = function()
+    {
+        return false;
+    }
+}
