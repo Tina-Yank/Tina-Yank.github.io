@@ -286,6 +286,11 @@ a:hover {
 .modal {
 	z-index: 9999;
 }
+.quote-img {
+	max-width: 100% !important;
+	min-height: 100% !important;
+	background:url('../images/blank-profile.png') no-repeat cover;
+}
 /*****************************************footer*****************************************/
 .col_white_amrc { 
 	color:white;
