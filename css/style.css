@@ -188,6 +188,9 @@ body {
 		-webkit-order: 2;
 		-ms-order: 2;
 	}
+	.hid {
+		display: none!important;
+	}
 }
 
 .text-slicer {
@@ -317,6 +320,17 @@ a:hover {
 .carousel-control-next-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%25f00' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
+
+.panel-thumbnail > .mx-auto.d-block {
+	display: inline-flex;
+	width: 50px;
+}
+
+.carousel-indicators li {
+	background-color: gray!important;
+}
+
+
 /*****************************************footer*****************************************/
 .col_white_amrc { 
 	color:white;
