@@ -78,7 +78,7 @@ body {
 	right: 0;
 	top: 40%;
 	min-height:10em;
-	z-index: 3;
+	z-index: 9999;
 }
 
 .menushka {
