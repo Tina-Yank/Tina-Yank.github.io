@@ -76,7 +76,7 @@ body {
 .list-group {
 	position: fixed;
 	right: 0;
-	top: 40%;
+	top: 30%;
 	min-height:10em;
 	z-index: 9999;
 }
