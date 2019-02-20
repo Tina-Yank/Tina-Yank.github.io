@@ -330,7 +330,10 @@ a:hover {
 	background-color: gray!important;
 }
 
-
+img:focus {
+	width: 700px;
+	height: 700px;
+}
 /*****************************************footer*****************************************/
 .col_white_amrc { 
 	color:white;
