@@ -188,9 +188,6 @@ body {
 		-webkit-order: 2;
 		-ms-order: 2;
 	}
-	.hid {
-		display: none!important;
-	}
 }
 
 .text-slicer {
