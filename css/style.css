@@ -286,7 +286,7 @@ a:hover {
 	height: 70vh;
 }
 
-.modal {
+.modal.fade {
 	z-index: 9999;
 }
 .quote-img {
@@ -331,6 +331,7 @@ a:hover {
 }
 
 .carousel-item {
+	min-height: 38vh;
 	transition: .6s;
 }
 /*****************************************footer*****************************************/
