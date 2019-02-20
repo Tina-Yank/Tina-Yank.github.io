@@ -330,9 +330,8 @@ a:hover {
 	background-color: gray!important;
 }
 
-img:focus {
-	width: 700px;
-	height: 700px;
+.carousel-item {
+	transition: .6s;
 }
 /*****************************************footer*****************************************/
 .col_white_amrc { 
@@ -500,4 +499,17 @@ footer p {
 	color:white;
 	box-shadow: 0 0 20px white;
 	transition: .6s;
+}
+
+.com-soc li a {
+	border:1px solid gray;
+	border-radius: 50%;
+}
+
+.com-soc li a i {
+	color: gray;
+}
+
+.com-soc li a:hover {
+	box-shadow:0 0 10px black;
 }
