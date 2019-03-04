@@ -47,3 +47,7 @@ for(var i in img)
         return false;
     }
 }
+
+document.getElementById("gallery").onclick = function () {
+    location.href = "gallery/";
+};
