@@ -21,25 +21,14 @@ body {
 }
 
 .sect {
-	height: 100vh;
+	min-height: 100vh;
 }
 
 .sec1 {
-	background: url("../images/bg.jpg") no-repeat center center fixed;
+	background: url("../images/bg.png") no-repeat center center fixed;
 	background-size: cover;
 	color: white;
 	transition: .7s;
-}
-
-.sec2 {
-	background-color: white;
-	height: 100%;
-	z-index: 9999;
-}
-
-.sec3 {
-	background-color: black;
-	height: 100%;
 }
 
 .pic-venz {
@@ -47,13 +36,27 @@ body {
 }
 
 .text-slicer {
+	background:white;
 	max-width: 65%;
 }
 
-.card-title {
-	font-weight: bold;
+a {
+	font-family: "Lora", cursive;
+	font-weight: normal;
+	text-decoration: none;
+	color: white;
 }
 
+a:hover {
+	text-decoration: none;
+	color: gray;
+}
+
+.card-img-top {
+	max-width: 450px;
+	max-height: 300px;
+	overflow: hidden;
+}
 
 /*******Befolk Script*******/
 @font-face {
@@ -90,6 +93,13 @@ body {
 .btn.btn-outline-primary.d-block.mx-auto.mt-3 {
 	min-width: 10em;
 	max-width: 13em;
+	color:rgb(150,100,45);
+    border: 1px solid rgb(105,72,49);
+}
+
+.btn.btn-outline-primary.d-block.mx-auto.mt-3:hover {
+	color: white;
+	background-color:rgb(105,72,49) ;
 }
 
 .locked {
