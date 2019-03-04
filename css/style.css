@@ -136,14 +136,9 @@ body {
 .type1 {
 	font-family: "Gloria Halleluah", cursive;
 }
-.type2 {
-	font-family: 'Permanent Marker', cursive;
+.nav-link {
+	font-family: "Lora", cursive;
 }
-.type3 {
-	font-family: "Miss Fajardose", serif;
-	font-size: 60px;
-}
-
 @media screen and (max-width: 438px) {
 	.sec1 h1 {
 		font-size: 35px;
