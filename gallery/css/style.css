@@ -210,18 +210,6 @@ body {
 	font-family: "Befolk";
 	src: url("../fonts/Befolk Script/Befolk Script.otf") format("opentype"), url("fonts/Befolk Script/Befolk Script.ttf") format("trruetype");
 }
-
-.befolk {
-	font-family: "Befolk";
-	font-size: 50px;
-}
-.befolk.par {
-	font-size: 35px;
-}
-
-.befolk-link {
-	font-family: "Befolk";
-}
 /*******Befolk Script*******/
 
 /*******Specta Retro Script*******/
@@ -234,24 +222,6 @@ body {
 
 .nav-item {
 	padding: .5rem 1rem;
-}
-
-.down-arrow {
-	text-align: center;
-}
-
-.down-arrow i {
-	position: relative;
-	top: 90vh;
-	bottom: 0;
-	line-height: 1.5em;
-	font-size:40px;
-	color: white;
-	margin-bottom: 2rem;
-}
-
-a:hover {
-	text-decoration: unset;
 }
 
 .navbar-brand {
