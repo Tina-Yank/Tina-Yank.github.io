@@ -18,7 +18,13 @@
 	<link rel="stylesheet" type="text/css" href="css/animate.css">
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135006508-2"></script>
-	<script src="js/gtag.js"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-135006508-2');
+	</script>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script src="js/wow.min.js"></script>
 	<script>
