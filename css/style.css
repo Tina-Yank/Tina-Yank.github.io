@@ -322,6 +322,10 @@ a:hover {
 	background-color: gray!important;
 }
 
+.carousel-indicators:active li {
+	background-color: lightgray!important;
+}
+
 .carousel-item {
 	min-height: 38vh;
 	transition: .6s;
